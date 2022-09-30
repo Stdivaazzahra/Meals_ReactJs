@@ -1,0 +1,161 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"); */
+
+.navbar {
+  font-family: "Kalam", cursive;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  /* color: orange; */
+  padding: 0 50px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.788);
+  z-index: 999;
+}
+
+.navbar_title {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  height: 50px;
+  /* padding-left: 30px; */
+}
+
+ul.navbar_list_item {
+  list-style: none;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  height: 100%;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+li:hover {
+  background-color: #ccc;
+}
+
+ul li.li_car {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  margin-left: 20px;
+}
+li span {
+  display: flex;
+  align-items: center;
+}
+ul li.li_car:hover {
+  background-color: transparent;
+}
+.icon_seacrh {
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.3rem;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.drop_down {
+  font-size: 20px;
+  margin-left: 0.3rem;
+}
+.icon_seacrh:active {
+  opacity: 0.5;
+  background-color: #eee;
+}
+
+.cari {
+  width: 0;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.li_car:hover .cari {
+  width: 200px;
+  opacity: 1;
+  padding: 0.3rem;
+}
+
+.cate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu_drop {
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  height: 300px;
+  bottom: -300px;
+  z-index: 99;
+  overflow-y: scroll;
+  left: 0;
+  background-color: wheat;
+  color: rgba(0, 0, 0, 0.7);
+  right: 0;
+  transition: all 0.3s ease-out;
+}
+
+.cate:hover > .menu_drop {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.menu_drop::-webkit-scrollbar {
+  width: 3px;
+}
+.menu_drop::-webkit-scrollbar-track {
+  width: 9px;
+  background-color: #ccc;
+}
+.menu_drop::-webkit-scrollbar-thumb {
+  background-color: coral;
+}
+
+.menu_drop p {
+  padding: 0.5rem 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  height: 100%;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  align-items: centerchke;
+  width: 100%;
+}
+button {
+  width: fit-content;
+  display: flex;
+  background-color: transparent;
+  border: none;
+}

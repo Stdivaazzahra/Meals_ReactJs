@@ -1,0 +1,53 @@
+.catePage {
+  width: 100%;
+}
+
+.judul {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+  padding-top: 4rem;
+  color: black;
+  text-shadow: 10px 7px 7px rgba(184, 64, 64, 0.5);
+}
+
+.wrap_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 3rem 5rem;
+}
+
+.card_menu_cate {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 320px;
+  align-self: center;
+  border: 3px solid rgba(184, 64, 64, 0.5);
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.card_menu_cate img {
+  flex: 0.6;
+  width: 100%;
+  object-fit: cover;
+}
+.card_menu_cate:hover {
+  box-shadow: 5px 5px 10px rgba(184, 64, 64, 0.3);
+}
+
+.des_categori {
+  flex: 0.4;
+  font-family: "Kalam", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.des_categori p {
+  font-size: 12px;
+}

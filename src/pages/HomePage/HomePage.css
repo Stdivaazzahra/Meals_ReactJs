@@ -1,0 +1,81 @@
+.homePage {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.homepage_img img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.homepage_text {
+  z-index: 99;
+}
+.homepage_text p {
+  font-family: "Kalam", cursive;
+  font-weight: bold;
+  font-size: 80px;
+  position: absolute;
+  color: white;
+  text-shadow: 25px 20px 7px black;
+  top: 40%;
+  width: 100%;
+}
+
+.catePage h1 {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+  padding-top: 4rem;
+  color: black;
+  text-shadow: 10px 7px 7px rgba(184, 64, 64, 0.5);
+}
+
+.wrap_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 3rem 5rem;
+}
+
+.card_menu {
+  min-width: 20%;
+  align-self: center;
+  padding: 1rem 0;
+  border: 3px solid rgba(184, 64, 64, 0.5);
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(184, 64, 64, 1);
+  transition: all 0.2s linear;
+}
+
+.card_menu:hover {
+  box-shadow: 5px 5px 10px rgba(184, 64, 64, 0.3);
+}
+
+.card_menu > div {
+  width: 100%;
+}
+
+.des_categori {
+  font-family: "Kalam", cursive;
+}
+
+.des_categori p {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: medium;
+}
