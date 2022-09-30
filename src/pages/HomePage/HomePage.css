@@ -20,7 +20,7 @@
 .homepage_text {
   z-index: 99;
 }
-.homepage_text p {
+.homepage_text h1 {
   font-family: "Kalam", cursive;
   font-weight: bold;
   font-size: 80px;
@@ -28,6 +28,28 @@
   color: white;
   text-shadow: 25px 20px 7px black;
   top: 40%;
+  width: 100%;
+}
+
+.homePage p {
+  font-family: "Kalam", cursive;
+  /* font-weight: bold; */
+  font-size: 30px;
+  position: absolute;
+  color: rgb(238, 178, 129);
+  text-shadow: 15px 10px 4px black;
+  top: 55%;
+  width: 100%;
+}
+
+p.kayden {
+  font-family: "Kalam", cursive;
+  /* font-weight: bold; */
+  font-size: 15px;
+  position: absolute;
+  color: rgb(238, 178, 129);
+  text-shadow: 15px 10px 4px black;
+  top: 61%;
   width: 100%;
 }
 

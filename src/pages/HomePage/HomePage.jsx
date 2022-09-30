@@ -28,11 +28,16 @@ const HomePage = () => {
           <img src={image} alt="Header HomePage" />
         </div>
         <div className='homepage_text'>
-          <p> Welcome Ho Ho </p>
+          <h1>Welcome Ho Ho</h1>
+          <p>
+            DipDip
+          </p>
+          <p className='kayden'>Colaboration With Kayden</p>
+          
         </div>
       </div>
       <div>
-        <h2 className='judul'>Pilih Categories Makanan</h2>
+        <h2 className='judul'>Pilih Kategori Makanan</h2>
       </div>
       <div className='wrap_card'>
         {
