@@ -1,7 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"); */
 
 .navbar {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -135,6 +135,11 @@ ul li.li_car:hover {
 
 .menu_drop p {
   padding: 0.5rem 0;
+  cursor: pointer;
+}
+.menu_drop p:hover {
+  background-color: rgb(152, 128, 83);
+  color: antiquewhite;
 }
 
 .link {

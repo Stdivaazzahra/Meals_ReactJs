@@ -1,0 +1,103 @@
+.card_skeleton {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  gap: 2rem;
+}
+.skeleton {
+  flex: 1;
+  border-radius: 15px;
+  background: #eee;
+}
+.card_skeleton .image_skeleton {
+  height: 510px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  /* box-shadow: 00px -10px 30px 10px rgba(0, 0, 0, 0.5); */
+  background: rgb(173, 168, 168);
+}
+.dec_skeleton {
+  flex: 1;
+  background: #eee;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+  padding: 1rem 1rem;
+  /* box-shadow: 0px -10px 30px 10px rgba(0, 0, 0, 0.5); */
+}
+.skel {
+  --w: 100%;
+  --radius: 15px;
+  --h: 10px;
+  width: var(--w);
+  border-radius: var(--radius);
+  height: var(--h);
+  background: rgb(173, 168, 168);
+}
+.dec_skeleton .name_skeleton {
+  --w: 50%;
+  --h: 30px;
+  margin-bottom: 1rem;
+}
+
+.category_skeleton,
+.asal_skeleton,
+.panduan_skeleton {
+  margin: 0.5rem 0;
+  --w: 30%;
+  --h: 15px;
+}
+.asal_skeleton {
+  --w: 20%;
+}
+.skel-text.first {
+  margin-top: 1.2rem;
+}
+.skel-text {
+  --h: 13px;
+}
+.skel-text:not(:last-child) {
+  margin-bottom: 10px;
+}
+.skel-text.last {
+  --w: 30%;
+}
+.row1 {
+  --w: 98%;
+}
+.row1 {
+  --w: 96%;
+}
+.row2 {
+  --w: 97%;
+}
+.row3 {
+  --w: 97%;
+}
+.row4 {
+  --w: 95%;
+}
+.row5 {
+  --w: 98%;
+}
+.row6 {
+  --w: 96%;
+}
+
+.skel-animasi {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,6 +1,6 @@
 .detail_page {
   width: 100%;
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
@@ -13,7 +13,7 @@
   min-height: 600px;
   width: 100%;
   position: relative;
-  background-image: url("../assets/image1.jpg");
+  background-image: url('../assets/image1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -21,7 +21,7 @@
 }
 
 .header_detail::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -44,7 +44,18 @@
   flex-direction: row;
   padding-top: 4rem;
   gap: 2rem;
+  animation: muncul 300ms linear forwards;
 }
+
+@keyframes muncul {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header_detail h1 {
   margin-top: -70px;
   font-size: 5em;

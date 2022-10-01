@@ -5,7 +5,9 @@
   display: flex;
   flex-direction: column-reverse;
 }
-
+.homepage_img {
+  animation: muncul 500ms linear forwards;
+}
 .homepage_img img {
   height: 100vh;
   width: 100%;
@@ -21,7 +23,7 @@
   z-index: 99;
 }
 .homepage_text h1 {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
   font-weight: bold;
   font-size: 80px;
   position: absolute;
@@ -32,7 +34,7 @@
 }
 
 .homePage p {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
   /* font-weight: bold; */
   font-size: 30px;
   position: absolute;
@@ -43,7 +45,7 @@
 }
 
 p.kayden {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
   /* font-weight: bold; */
   font-size: 15px;
   position: absolute;
@@ -54,7 +56,7 @@ p.kayden {
 }
 
 .catePage h1 {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
   font-size: 40px;
   padding-top: 4rem;
   color: black;
@@ -69,6 +71,16 @@ p.kayden {
   width: 100%;
   gap: 1rem;
   padding: 3rem 5rem;
+  animation: muncul 1s linear forwards;
+}
+
+@keyframes muncul {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .card_menu {
@@ -91,7 +103,7 @@ p.kayden {
 }
 
 .des_categori {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
 }
 
 .des_categori p {
