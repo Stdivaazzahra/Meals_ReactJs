@@ -113,3 +113,10 @@ p.kayden {
 h3 {
   font-size: medium;
 }
+
+@media screen and (max-width: 428px) {
+  .homepage_text h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+}

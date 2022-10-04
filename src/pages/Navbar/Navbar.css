@@ -164,3 +164,32 @@ button {
   background-color: transparent;
   border: none;
 }
+@media screen and (max-width: 428px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    /* color: orange; */
+    height: auto;
+  }
+  .navbar_list {
+    width: 100%;
+  }
+  ul.navbar_list_item {
+    width: 100%;
+    justify-content: space-around;
+  }
+  li.li_car input.cari {
+    max-width: 70%;
+  }
+  .navbar_title {
+    justify-content: center;
+  }
+  .link,
+  .link li,
+  li.li_car {
+    padding: 0;
+    margin: 0;
+  }
+}

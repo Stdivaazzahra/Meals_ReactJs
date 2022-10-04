@@ -24,6 +24,7 @@
 .card_menu_cate {
   display: flex;
   flex-direction: column;
+  max-width: 292.8px;
   width: 20%;
   height: 340px;
   align-self: center;
@@ -50,4 +51,39 @@
 
 .des_categori p {
   font-size: 12px;
+}
+
+@media screen and (max-width: 428px) {
+  .wrap_card {
+    padding: 0;
+    gap: 0.3rem;
+  }
+  h2.judul {
+    margin-bottom: 1.5rem;
+  }
+  .card_menu,
+  .card_menu_cate {
+    display: flex;
+    flex-direction: column;
+    max-width: 292.8px;
+    width: 30%;
+  }
+  .card_menu img,
+  .card_menu_cate img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card_menu_cate {
+    height: 200px;
+  }
+  /* .card_menu_cate img {
+    flex: 0;
+  } */
+  .des_categori {
+    padding: 0 0.2rem;
+  }
+  .des_categori h3 {
+    font-size: 14px;
+  }
 }
