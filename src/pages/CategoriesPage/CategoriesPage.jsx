@@ -16,14 +16,14 @@ const CategoriesPage = () => {
   const [data, setData] = useState();
   const navigate = useNavigate();
 
-<<<<<<< HEAD
+
   useEffect(()=>{
     axios.get(API)
     .then(res => setData(res.data.meals))
     .catch(err => console.log(err))
     
   },[API])
-=======
+
   useEffect(() => {
     axios
       .get(API)
@@ -34,7 +34,6 @@ const CategoriesPage = () => {
   const getIDMeal = (id) => {
     navigate(`/detail/${id}`);
   };
->>>>>>> 181b8c2256c3fc2471de0f128e4d25a4c9748e6e
 
   return (
     <>
