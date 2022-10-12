@@ -54,7 +54,7 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className='li_car'>
-                    <input onChange={(e)=> setDataSearch(e.target.value)} className={`cari`} value={dataSearch} type="text" placeholder='Cari meal' />
+                    <input onChange={(e)=> setDataSearch(e.target.value)} className={`cari`} value={dataSearch} type="text" placeholder='Search meal' />
                     <button type="submit"><BiSearchAlt onClick={()=> searchBtn(dataSearch)} className='icon_seacrh'/></button>
                 </li>
             </ul>
