@@ -20,7 +20,7 @@ const CategoriesPage = () => {
     axios.get(API)
     .then(res => setData(res.data.meals))
     .catch(err => console.log(err))
-
+    
   },[API])
 
 

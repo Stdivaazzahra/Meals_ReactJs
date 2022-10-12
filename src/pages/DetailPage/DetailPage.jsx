@@ -2,10 +2,12 @@ import React, {useEffect, useState} from 'react'
 import './DetailPage.css'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+
 const DetailPage = () => {
     const [data, setData] = useState()
     const {id} = useParams()
     const API = "https://www.themealdb.com/api/json/v1/1/lookup.php?i="+id
+    
     useEffect(()=>{
         axios.get(API)
         .then(res=> setData(res.data.meals[0]))

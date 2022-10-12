@@ -27,7 +27,7 @@ const Navbar = () => {
   }
 
   const cateBtn = (name) =>{
-
+    
     if(name){
       navigate(`/categories/${name}`) 
     }
